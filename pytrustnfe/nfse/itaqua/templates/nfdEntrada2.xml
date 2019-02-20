@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tbnfd>
+    <nfd>
+        <numeronfd>9440</numeronfd>
+        <codseriedocumento>8</codseriedocumento>
+        <codnaturezaoperacao>511</codnaturezaoperacao>
+        <codigocidade>3</codigocidade>
+        <inscricaomunicipalemissor>999995</inscricaomunicipalemissor>
+        <dataemissao>20/11/2018</dataemissao>
+        <razaotomador>SMARapd – ltda.</razaotomador>
+        <nomefantasiatomador>SMARapd</nomefantasiatomador>
+        <enderecotomador>Rua Aurora</enderecotomador>
+        <cidadetomador>Ribeirao Preto</cidadetomador>
+        <estadotomador>SP</estadotomador>
+        <paistomador>Brasil</paistomador>
+        <fonetomador>21119898</fonetomador>
+        <ceptomador>79010100</ceptomador>
+        <bairrotomador>Centro</bairrotomador>
+        <emailtomador>teste@smarapd.com.br</emailtomador>
+        <cpfcnpjtomador>30669959085741</cpfcnpjtomador>
+        <tbfatura>
+            <fatura>
+                <numfatura>10/2010</numfatura>
+                <vencimentofatura>10/10/2010</vencimentofatura>
+                <valorfatura>100</valorfatura>
+            </fatura>
+            <fatura>
+                <numfatura>11/2010</numfatura>
+                <vencimentofatura>10/11/2010</vencimentofatura>
+                <valorfatura>100</valorfatura>
+            </fatura>
+            <fatura>
+                <numfatura>12/2010</numfatura>
+                <vencimentofatura>10/12/2010</vencimentofatura>
+                <valorfatura>100</valorfatura>
+            </fatura>
+        </tbfatura>
+        <observacao>Prestacao de Servico de Esterilizacao Ref. Mes de Dezembro Hosp. Estadual de Urgencia e Emergencia
+        </observacao>
+        <tbservico>
+            <servico>
+                <quantidade>1</quantidade>
+                <descricao>ESTERILIZACAO</descricao>
+                <codatividade>1401</codatividade>
+                <valorunitario>148628,00</valorunitario>
+                <aliquota>5,00</aliquota>
+                <impostoretido>false</impostoretido>
+            </servico>
+        </tbservico>
+        <quantidade>0</quantidade>
+        <pesoliquido>0</pesoliquido>
+        <pesobruto>0</pesobruto>
+        <pis>0,00</pis>
+        <cofins>0,00</cofins>
+        <csll>0,00</csll>
+        <irrf>0,00</irrf>
+        <inss>0,00</inss>
+        <tributadonomunicipio>False</tributadonomunicipio>
+    </nfd>
+    <!--Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>ZyJ6ZcbiLryqRF78z28918aKldc=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            uqWEoHZfAV9jlUEuIIW3Qs9zXgRDvMP7j9x1Ylw4NAs7U6uW9MZxa7edNg2oz4e0QHY7I84tuHpHNxK0datipGT11uyaJ+98bHchfIPKOEnNbXQjF7UhQTOyJQpDUL/7dNnmh6oR5rjovcaYO3HvyO1NzCi+SvbgfVRii4eclCg=
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIICkzCCAfygAwIBAgIJAI3Q87qM19X1MA0GCSqGSIb3DQEBCwUAMGExCzAJBgNV
+                    BAYTAkJSMRUwEwYDVQQIDAxTw4PCo28gUGF1bG8xGDAWBgNVBAcMD0l0YXF1YXF1
+                    ZWNldHViYTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMB4XDTE4
+                    MDkwMjAxMjczNFoXDTIxMDUyOTAxMjczNFowYTELMAkGA1UEBhMCQlIxFTATBgNV
+                    BAgMDFPDg8KjbyBQYXVsbzEYMBYGA1UEBwwPSXRhcXVhcXVlY2V0dWJhMSEwHwYD
+                    VQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwgZ8wDQYJKoZIhvcNAQEBBQAD
+                    gY0AMIGJAoGBANFPtVxI0vPRXHs5qIRg2mT6Qzg3KvKUh3De39qazwPJ0s4u9G7Y
+                    MUM57AwXbiQO4/dBZ3kPOJqvgkXHKNt+BfFry2Elu3wUM54fCS2TEBD+IZ2HbrBX
+                    JTuZ3a5DnIfVDfgAOfxQ921+DWdtKF9bBZ/JnqYbB+ZBbPt7e9bXowyRAgMBAAGj
+                    UzBRMB0GA1UdDgQWBBSap57rF9ZFWiBEBTizApHmV2HM0TAfBgNVHSMEGDAWgBSa
+                    p57rF9ZFWiBEBTizApHmV2HM0TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+                    CwUAA4GBAEA456CI3DzRjJxIEqIqEehXMBpVc1pyc8O8K6A5v/glCZz7UyQNy7is
+                    Ss7iTND8SAB5JyfVpWPvvYZ5n5etGbNBbVQn5gHe8PrGCFjEBNWSuuSckeLxzBNq
+                    U7MVTlEKt7alZvi9KQ8qVXxzD+2iKDSlZypyxB9WGgsXGUU1vLcQ
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature-->
+</tbnfd>

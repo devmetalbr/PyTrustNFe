@@ -1,0 +1,6 @@
+<consultarAtividades>
+    <codigoMunicipio>{{ vals.codigoMunicipio }}</codigoMunicipio>
+    <cpfUsuario>{{ vals.cpfUsuario }}</cpfUsuario>
+    <hashSenha>{{ vals.hashSenha }}</hashSenha>
+    <inscricaoMunicipal>{{ vals.inscricaoMunicipal }}</inscricaoMunicipal>
+</consultarAtividades>

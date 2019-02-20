@@ -1,0 +1,46 @@
+<xs:schema xmlns:tns="http://webservices.sil.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webservices.sil.com/">
+  <xs:element name="consultarAtividades" type="tns:consultarAtividades"/>
+  <xs:element name="consultarAtividadesResponse" type="tns:consultarAtividadesResponse"/>
+  <xs:element name="nfdEntrada" type="tns:nfdEntrada"/>
+  <xs:element name="nfdEntradaCancelar" type="tns:nfdEntradaCancelar"/>
+  <xs:element name="nfdEntradaCancelarResponse" type="tns:nfdEntradaCancelarResponse"/>
+  <xs:element name="nfdEntradaResponse" type="tns:nfdEntradaResponse"/>
+  <xs:complexType name="nfdEntrada">
+    <xs:sequence>
+      <xs:element name="cpfUsuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="hashSenha" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigoMunicipio" type="xs:int"/>
+      <xs:element name="nfd" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nfdEntradaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nfdEntradaCancelar">
+    <xs:sequence>
+      <xs:element name="cpfUsuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="hashSenha" type="xs:string" minOccurs="0"/>
+      <xs:element name="nfd" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nfdEntradaCancelarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultarAtividades">
+    <xs:sequence>
+      <xs:element name="cpfUsuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="hashSenha" type="xs:string" minOccurs="0"/>
+      <xs:element name="inscricaoMunicipal" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigoMunicipio" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultarAtividadesResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

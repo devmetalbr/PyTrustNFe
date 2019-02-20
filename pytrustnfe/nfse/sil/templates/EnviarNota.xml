@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservices.sil.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:nfdEntrada>
+         <!--Optional:-->
+         <cpfUsuario>{{ cpf_usuario }}</cpfUsuario>
+         <!--Optional:-->
+         <hashSenha>{{ hash_senha }}</hashSenha>
+         <codigoMunicipio>{{ codigo_municipio }}</codigoMunicipio>
+         <!--Optional:-->
+         <nfd>
+           <![CDATA[{% include 'Nota.xml' %}]]>
+         </nfd>
+      </web:nfdEntrada>
+   </soapenv:Body>
+</soapenv:Envelope>

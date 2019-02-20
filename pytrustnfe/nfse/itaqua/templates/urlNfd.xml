@@ -1,0 +1,6 @@
+<urlNfd>
+    <codigoMunicipio>{{ vals.codigoMunicipio }}</codigoMunicipio>
+    <numeroNfd>{{ vals.numeroNfd }}</numeroNfd>
+    <serieNfd>{{ vals.serieNfd }}</serieNfd>
+    <inscricaoMunicipal>{{ vals.inscricaoMunicipal }}</inscricaoMunicipal>
+</urlNfd>

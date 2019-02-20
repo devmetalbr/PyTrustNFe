@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nfd>
+    <recibo>
+        <codrecibo>FQTM-ENHB</codrecibo>
+        <datahora>10/01/2019 15:06:45</datahora>
+        <numeronotas>1</numeronotas>
+        <codmunicipio>3201308</codmunicipio>
+    </recibo>
+</nfd>', 'object': <Element nfd at 0x7f7adc157c88>, 'sent_xml': '<?xml version="1.0" encoding="UTF-8" ?><tbnfd>
+<nfd>
+    <numeronfd>0</numeronfd>
+    <codseriedocumento>NFS</codseriedocumento>
+    <codnaturezaoperacao>511</codnaturezaoperacao>
+    <codigocidade>3201308</codigocidade>
+    <inscricaomunicipalemissor>999995</inscricaomunicipalemissor>
+    <dataemissao>10/01/2019</dataemissao>
+    <razaotomador>MADEIREIRA ARIQUEMES LTDA</razaotomador>
+    <nomefantasiatomador>MADEIR ARIQUEMES</nomefantasiatomador>
+    <enderecotomador>ROD BR 262 KM 55</enderecotomador>
+    <numeroendereco>SN</numeroendereco>
+    <cidadetomador>CARIACICA</cidadetomador>
+    <estadotomador>ES</estadotomador>
+    <paistomador>BRASIL</paistomador>
+    <fonetomador>21278370</fonetomador>
+    <faxtomador>21278375</faxtomador>
+    <ceptomador>29140502</ceptomador>
+    <bairrotomador>CAMPO GRANDE</bairrotomador>
+    <emailtomador>pagar@expresser.com.br</emailtomador>
+    <tppessoa>J</tppessoa>
+    <cpfcnpjtomador>111.111.111-11</cpfcnpjtomador>
+    <inscricaoestadualtomador>081599072</inscricaoestadualtomador>
+    <tbfatura>
+        <fatura>
+            <numfatura>1/167407</numfatura>
+            <vencimentofatura>15/03/2014</vencimentofatura>
+            <valorfatura>51,00</valorfatura>
+        </fatura>
+    </tbfatura>
+    <tbservico>
+        <servico>
+            <quantidade>1,00</quantidade>
+            <descricao>MENSALIDADE BONIFICADA CAT80 51</descricao>
+            <codatividade>1401</codatividade>
+            <valorunitario>51,00</valorunitario>
+            <aliquota>3,00</aliquota>
+            <impostoretido>N</impostoretido>
+        </servico>
+    </tbservico>
+    <observacao>oi</observacao>
+    <pis>0,00</pis>
+    <cofins>0,00</cofins>
+    <csll>0,00</csll>
+    <irrf>0,00</irrf>
+    <inss>0,00</inss>
+    <descdeducoesconstrucao>Deducao ISS Mensalidade</descdeducoesconstrucao>
+    <totaldeducoesconstrucao>0</totaldeducoesconstrucao>
+    <vlroutros>0,00</vlroutros>
+    <fatorgerador>12/2016</fatorgerador>
+</nfd>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="">
+            <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <DigestValue>uCVQdE5h85BIRbNAAXgR4hz8Is8=</DigestValue>
+        </Reference>
+    </SignedInfo>
+    <SignatureValue>
+        v9jd87Sa3QqqqXN8yvY7Xf/r2JPsiR+fgu6SQ+L0Jh/NRELRQZjzXUYjTAG7xLI0MaPFbNhCi8+LdmelYRt1B8TvoRNgi+TQdx7LALgRsGJpy6w0e9zi3DLO8JgtETpUJBv9P22MGnaThwIVTlhDoWAjXjDNwAQvEgkzORiPJliRXiPAU0iHbs5eRoGm7QpURpssHocGQMNSFYrf743s7DW2WlRmpPsEeKPINILbiuaNyf4R9cKvjKtNx1TMgzs5/wtibVQN8gPHzHTz5MPq6Zn2StKJqNGgoFw8O/pHJyVMaqOfiLdljzy71AuKag6m0pckYtmBbylVPQykyURESg==
+    </SignatureValue>
+    <KeyInfo>
+        <X509Data>
+            <X509Certificate>
+                MIIIBjCCBe6gAwIBAgIQLBHXJDKfGkVNM8MqTWT/cTANBgkqhkiG9w0BAQsFADB4\nMQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2Vj\ncmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYD\nVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc1MB4XDTE4MDUwOTE3MTg1MloXDTE5MDUw\nOTE3MTg1MlowgfIxCzAJBgNVBAYTAkJSMRMwEQYDVQQKDApJQ1AtQnJhc2lsMQsw\nCQYDVQQIDAJTUDEYMBYGA1UEBwwPSXRhcXVhcXVlY2V0dWJhMTYwNAYDVQQLDC1T\nZWNyZXRhcmlhIGRhIFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAU\nBgNVBAsMDVJGQiBlLUNOUEogQTExJzAlBgNVBAsMHkF1dGVudGljYWRvIHBvciBB\nUiBQb2xvbWFzdGhlcjEuMCwGA1UEAwwlRVVST0xMUyBETyBCUkFTSUwgTFREQTow\nNDY1NzQ0MzAwMDEwMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM1D\nEK0NzgnabQ94nUuOyNoejPsm5/nXnyEOWZozTuaqnKtgNMLZt3Ifg3e7O5DEf5Yj\nZMCYqPfWqrfMVNF6qZ1S2dEu08k0cjfN07D/Ss2ytJO3i2Fgqzv9VqyX3rNf5P/u\nV3z1C9DbxW4jOBoQZfJnPsgDwFLxIDSZn3qSTvHUK7NuPacJuiVnhxnEqJ3t1Bm9\nyCARhawQ844vKVlVEctI/TvbZNgGsqFcUuN+66kmcVNY+VtCwdNt4gFLwtVlltk/\noYkNy130t9x+HcO5aU4SXsNKCmE4cVPunkLl7W5C3t6GztxNVJLJMq+LvC5Lupnf\n8V0VZ82rH8u7QUuQDJkCAwEAAaOCAw8wggMLMIG+BgNVHREEgbYwgbOgPQYFYEwB\nAwSgNAQyMjQwNDE5NDU0NzM0OTY1NDgwNDAwMDAwMDAwMDAwMDAwMDAwMDM1NTgx\nMzk2U1NQU1CgIAYFYEwBAwKgFwQVUkFVTCBTSUxWQSBQQVNDT0FSRUxJoBkGBWBM\nAQMDoBAEDjA0NjU3NDQzMDAwMTAwoBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMIEc\nZmlzY2FsQGNpZ2xhemFuY2hldHRhLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQY\nMBaAFFN9f52+0WHQILran+OJpxNzWM1CMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGow\naAYIKwYBBQUHAgEWXGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIv\ncmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2ln\nbl9SRkIucGRmMIG8BgNVHR8EgbQwgbEwV6BVoFOGUWh0dHA6Ly9pY3AtYnJhc2ls\nLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduUkZC\nRzUvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFzaWwub3V0cmFs\nY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc1L0xhdGVz\ndENSTC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr\nBgEFBQcDBDCBrAYIKwYBBQUHAQEEgZ8wgZwwXwYIKwYBBQUHMAKGU2h0dHA6Ly9p\nY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNh\nZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzUucDdjMDkGCCsGAQUFBzABhi1odHRwOi8v\nb2NzcC1hYy1jZXJ0aXNpZ24tcmZiLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcN\nAQELBQADggIBAK1QRt91iAuChGsJG9wrEEW51nDhX2N7BJOZqAn0NFowDPIjaoNJ\n+b1jMHafeRdyN5ns+7co83ZIHpyyamywq9Gxz7c6tOovCMhaihWGBYk+08KIulqS\nBzA2241BYDAWETprh/2IXkuywWBFwzL00g69jWIFO91ro6x/WuN22TqunuSA6U4D\nONY1Qm7oBvUe95wo6RIdz6llz9qMKilR+AH3xEXiR6oOVYGNSAQdI6pJfwCFuHIN\ntThAykeAaykPrRgnvBWJb0Nv39uP0PXpFDK8YHTp9K+FVe0lShrVifaI4MntRizi\nYg/BJERqx137vKxGQmAgPdKiZJSpeDXqGinI6/+Gr+nS+/QV1RIsnayJDDVN/Nes\nud2FRwRH9y9GZYDr5bY91a4ViGHUBhxYW2HLgvrtWn7QZcHtx67r3tI3b2rEnCMF\nPY2iYKd9cIEM6iOrpxLZIi95xFJsbihVVkrKSR2v1fpV6cbDf92SYHhK0E+tl2Ln\nE3feXQTDR4NhtzJ4dbidz7GKRbREMvFKjy0lcoCut6/loQfINwA4kO37MBeG4Qlm\nIuDJrcMhvJlrfTeVZ4R6qXE7BrREfWbiy3Tw/AuzM53akbNmVjPjRMiNG/xC/oZq\npDr25D4s2dcgP5mXlc9QyVmMEkIkG1Dz4/ye0026K+P/Lxzi+aKlANBS\n
+            </X509Certificate>
+        </X509Data>
+    </KeyInfo>
+</Signature>
+</tbnfd>

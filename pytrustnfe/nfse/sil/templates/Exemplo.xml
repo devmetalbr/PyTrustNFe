@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservices.sil.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:nfdEntrada>
+         <!--Optional:-->
+         <cpfUsuario>555.555.555-55</cpfUsuario>
+         <!--Optional:-->
+         <hashSenha>cRDtpNCeBiql5KOQsKVyrA0sAiA=</hashSenha>
+         <codigoMunicipio>1</codigoMunicipio>
+         <!--Optional:-->
+         <nfd><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?><tbnfd><nfd><numeronfd>0</numeronfd><codseriedocumento>NFS</codseriedocumento><codnaturezaoperacao>511</codnaturezaoperacao><codigocidade>3201308</codigocidade><inscricaomunicipalemissor>20270</inscricaomunicipalemissor><dataemissao>17/07/2017</dataemissao><razaotomador>MADEIREIRA ARIQUEMES LTDA</razaotomador><nomefantasiatomador>MADEIR ARIQUEMES</nomefantasiatomador><enderecotomador>ROD BR 262 KM 55</enderecotomador><numeroendereco>SN</numeroendereco><cidadetomador>CARIACICA</cidadetomador><estadotomador>ES</estadotomador><paistomador>BRASIL</paistomador><fonetomador>21278370</fonetomador><faxtomador>21278375</faxtomador><ceptomador>29140502</ceptomador><bairrotomador>CAMPO GRANDE</bairrotomador><emailtomador>pagar@expresser.com.br</emailtomador><tppessoa>J</tppessoa><cpfcnpjtomador>111.111.111-11</cpfcnpjtomador><inscricaoestadualtomador>081599072</inscricaoestadualtomador><inscricaomunicipaltomador/><tbfatura><fatura><numfatura>1/167407</numfatura><vencimentofatura>15/03/2014</vencimentofatura><valorfatura>51,00</valorfatura></fatura></tbfatura><tbservico><servico><quantidade>1,00</quantidade><descricao>MENSALIDADE BONIFICADA CAT80 51</descricao><codatividade>01.02</codatividade><valorunitario>51,00</valorunitario><aliquota>3,00</aliquota><impostoretido>N</impostoretido></servico></tbservico><observacao>oi</observacao><razaotransportadora/><cpfcnpjtransportadora/><enderecotransportadora/><pis>0,00</pis><cofins>0,00</cofins><csll>0,00</csll><irrf>0,00</irrf><inss>0,00</inss><descdeducoesconstrucao>Deducao ISS Mensalidade</descdeducoesconstrucao><totaldeducoesconstrucao>0</totaldeducoesconstrucao><tributadonomunicipio/><vlroutros>0,00</vlroutros><numerort/><codigoseriert/><dataemissaort/><fatorgerador>12/2016</fatorgerador></nfd><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>4iIGxO/HYKgtf1UpdmWS1AgBj5A=</DigestValue></Reference></SignedInfo><SignatureValue>RZ+5YHsYaSFGwR19hN438YvIJbbLP43teIV9ttaBjasHhiIL2D+h/3Ls/lSWnlneayRtvpanA5GL
+esGsQeade8/6hgHwPFj0/sbysYIi3B01JCz/AKTAAdbSoSgIX/uc36H+FlTvXu5KAx3NrH2LYjTS
+7TQgtN/74k6pJlH63SE=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=GUJ,OU=Artigo,O=GUJ,L=Sao Paulo,ST=SP,C=BR</X509SubjectName><X509Certificate>MIICLTCCAZagAwIBAgIES8nsYzANBgkqhkiG9w0BAQUFADBbMQswCQYDVQQGEwJCUjELMAkGA1UE
+CBMCU1AxEjAQBgNVBAcTCVNhbyBQYXVsbzEMMAoGA1UEChMDR1VKMQ8wDQYDVQQLEwZBcnRpZ28x
+DDAKBgNVBAMTA0dVSjAeFw0xMDA0MTcxNzE0MTFaFw0xMTA0MTcxNzE0MTFaMFsxCzAJBgNVBAYT
+AkJSMQswCQYDVQQIEwJTUDESMBAGA1UEBxMJU2FvIFBhdWxvMQwwCgYDVQQKEwNHVUoxDzANBgNV
+BAsTBkFydGlnbzEMMAoGA1UEAxMDR1VKMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCX/8SS
+PsfaSA7UxHyGdMCjHChUsVaF7ATTJ3oSellSo/JxQWFMZDx8enKw9WoBUOGK92qdfA2BacG+eeMk
+EPDBIZK0AKKeh+qPlhFHs9v+7pFL0XHhZQSE6rXkZ4eStEGXmFGqn4LVQgQktdniJAioCFnl11it
+I1dF5PAOOCx8qQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAG/DHQLTrICExUut+9zaJbGq3DnXFr8o
+SarquFMBShB8KIlNMd+m2al6OB+HyCG3r/NE3KFBBUVJbdZi0MehtIG2KSNNTvXRWyls28tYOlUe
+62E8eEMOsHcM734foa7J6CSs7UzQ0KCAisXtH2+5MrLEfug4/N+6VMqg8omNp8i6</X509Certificate></X509Data></KeyInfo></Signature></tbnfd>]]></nfd>
+      </web:nfdEntrada>
+   </soapenv:Body>
+</soapenv:Envelope>

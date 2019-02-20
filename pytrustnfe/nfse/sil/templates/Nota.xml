@@ -1,0 +1,64 @@
+<tbnfd>
+    <nfd>
+        <numeronfd>{{ nfse.rps.numero }}</numeronfd>
+        <codseriedocumento>{{ nfse.rps.serie }}</codseriedocumento>
+        <codnaturezaoperacao>{{ nfse.rps.natureza_operacao }}</codnaturezaoperacao>
+        <codigocidade>{{ nfse.rps.codigo_municipio }}</codigocidade>
+        <inscricaomunicipalemissor>{{ nfse.inscricao_municipal }}</inscricaomunicipalemissor>
+        <dataemissao>{{ nfse.rps.data_emissao }}</dataemissao>
+        <razaotomador>{{ nfse.rps.tomador.razao_social|upper }}</razaotomador>
+        <nomefantasiatomador>{{ nfse.rps.tomador.nome_fantasia|upper }}</nomefantasiatomador>
+        <enderecotomador>{{ nfse.rps.tomador.logradouro|upper }}</enderecotomador>
+        <numeroendereco>{{ nfse.rps.tomador.numero }}</numeroendereco>
+        <cidadetomador>{{ nfse.rps.tomador.nome_cidade|upper }}</cidadetomador>
+        <estadotomador>{{ nfse.rps.tomador.uf|upper }}</estadotomador>
+        <paistomador>{{ nfse.rps.tomador.pais|upper }}</paistomador>
+        <fonetomador>{{ nfse.rps.tomador.telefone }}</fonetomador>
+        <faxtomador/>
+        <ceptomador>{{ nfse.rps.tomador.cep }}</ceptomador>
+        <bairrotomador>{{ nfse.rps.tomador.bairro|upper }}</bairrotomador>
+        <emailtomador>{{ nfse.rps.tomador.email }}</emailtomador>
+        <tppessoa>{{ nfse.rps.tomador.tipo_cpfcnpj }}</tppessoa>
+        <cpfcnpjtomador>{{ nfse.rps.tomador.cnpj_cpf }}</cpfcnpjtomador>
+        <inscricaoestadualtomador>{{ nfse.rps.tomador.inscricao_estadual }}</inscricaoestadualtomador>
+        <inscricaomunicipaltomador>{{ nfse.rps.tomador.inscricao_municipal }}</inscricaomunicipaltomador>
+        <tbfatura>
+            {% for fatura in nfse.rps.faturas %}
+            <fatura>
+                <numfatura>{{ fatura.num_fatura }}</numfatura>
+                <vencimentofatura>{{ fatura.vencimento }}</vencimentofatura>
+                <valorfatura>{{ fatura.valor }}</valorfatura>
+            </fatura>
+            {% endfor %}
+        </tbfatura>
+        <tbservico>
+            {% for servico in nfse.rps.itens_servico %}
+            <servico>
+                <quantidade>{{ servico.quantidade }}</quantidade>
+                <descricao>{{ servico.descricao }}</descricao>
+                <codatividade>{{ servico.cod_atividade }}</codatividade>
+                <valorunitario>{{ servico.valor_unitario }}</valorunitario>
+                <aliquota>{{ servico.aliquota }}</aliquota>
+                <impostoretido>{{ servico.imposto_retido }}</impostoretido>
+            </servico>
+            {% endfor %}
+        </tbservico>
+        <observacao>{{ nfse.rps.informacoes_legais }}</observacao>
+        <razaotransportadora/>
+        <cpfcnpjtransportadora/>
+        <enderecotransportadora/>
+        <pis>{{ nfse.rps.valor_pis }}</pis>
+        <cofins>{{ nfse.rps.valor_cofins }}</cofins>
+        <csll>{{ nfse.rps.valor_csll }}</csll>
+        <irrf>{{ nfse.rps.valor_ir }}</irrf>
+        <inss>{{ nfse.rps.valor_inss }}</inss>
+        <descdeducoesconstrucao>Deducao ISS Mensalidade</descdeducoesconstrucao>
+        <totaldeducoesconstrucao>0</totaldeducoesconstrucao>
+        <tributadonomunicipio/>
+        <vlroutros>0,00</vlroutros>
+        <numerort/>
+        <codigoseriert/>
+        <dataemissaort/>
+        <fatorgerador>{{ nfse.rps.fator_gerador }}</fatorgerador>
+    </nfd>
+</tbnfd>

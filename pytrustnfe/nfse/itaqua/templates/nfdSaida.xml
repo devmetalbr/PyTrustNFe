@@ -1,0 +1,6 @@
+<nfdSaida>
+  <recibo>{{ vals.recibo }}</recibo>
+  <cpfUsuario>{{ vals.cpfUsuario }}</cpfUsuario>
+  <hashSenha>{{ vals.hashSenha }}</hashSenha>
+  <inscricaoMunicipal>{{ vals.inscricaoMunicipal }}</inscricaoMunicipal>
+</nfdSaida>

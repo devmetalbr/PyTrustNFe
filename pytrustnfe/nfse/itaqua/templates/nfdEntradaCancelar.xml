@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfdEntradaCancelar>
+  <cpfUsuario>str1234</cpfUsuario>
+  <hashSenha>str1234</hashSenha>
+  <nfd>str1234</nfd>
+</nfdEntradaCancelar>
+
